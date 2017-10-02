@@ -16,7 +16,7 @@ void gotoxy(int x, int y)
 int main(int argc, char*argv[])
 {
     int wiersze;
-    cout<<"Podaj liczbe wierszy : "<<endl;
+    cout<<"Podaj liczbe wierszy : ";
 
     cin>>wiersze;
     for (int i=1;i<=wiersze; i++)
@@ -26,7 +26,7 @@ int main(int argc, char*argv[])
 
            cout<<" ";
         }
-        for(int k=1 ;k<=(2*i)-1 ;k++)
+        for(int k=1 ;k<=i+1 ;k++)
         {
 
             cout<<" *";
